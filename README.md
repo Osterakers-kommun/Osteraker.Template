@@ -1,5 +1,4 @@
 # Österåkers Task Template
-
 Det här repot innehåller en mall för att skapa egna Frends-tasks.
 
 ## Utvecklingsmiljö
