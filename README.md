@@ -2,6 +2,9 @@
 
 Det här repot innehåller en mall för att skapa egna Frends-tasks.
 
+## Utvecklingsmiljö
+Exemplet är framtaget i **Microsoft Visual Studio**.
+
 ## Referenser
 Följande resurser har använts som stöd vid uppbyggnaden av exemplet:
 
