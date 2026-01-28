@@ -19,7 +19,7 @@
 
 - Corrected the null check logic
 
-## [1.0.0] - GeneratedDate
+## [1.0.0] - 2026-01-27
 
 ### Added
 
