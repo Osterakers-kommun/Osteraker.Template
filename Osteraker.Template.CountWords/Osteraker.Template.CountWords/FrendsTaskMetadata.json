@@ -1,0 +1,7 @@
+﻿{
+  "Tasks": [
+    {
+      "TaskMethod": "Osteraker.Template.CountWords.Template.CountWords"
+    }
+  ]
+}
