@@ -1,10 +1,10 @@
-﻿namespace Osteraker.Template.Example;
+﻿namespace Osteraker.Template.CountCharacters;
 
 using System;
 using System.ComponentModel;
 using System.Threading;
-using Osteraker.Template.Example.Definitions;
-using Osteraker.Template.Example.Helpers;
+using Osteraker.Template.CountCharacters.Definitions;
+using Osteraker.Template.CountCharacters.Helpers;
 
 /// <summary>
 /// Task Class for Template operations.
@@ -19,7 +19,7 @@ public static class Template
     /// <param name="options">Additional parameters.</param>
     /// <param name="cancellationToken">A cancellation token provided by Frends Platform.</param>
     /// <returns>object { bool Success, string Output, object Error { string Message, Exception AdditionalInfo } }</returns>
-    public static Result Example(
+    public static Result CountCharacters(
         [PropertyTab] Input input,
         [PropertyTab] Options options,
         CancellationToken cancellationToken)

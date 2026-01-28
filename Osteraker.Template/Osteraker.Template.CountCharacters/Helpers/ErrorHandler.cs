@@ -1,7 +1,7 @@
-namespace Osteraker.Template.Example.Helpers;
+namespace Osteraker.Template.CountCharacters.Helpers;
 
 using System;
-using Osteraker.Template.Example.Definitions;
+using Osteraker.Template.CountCharacters.Definitions;
 
 internal static class ErrorHandler
 {

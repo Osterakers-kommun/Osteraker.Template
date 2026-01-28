@@ -2,7 +2,7 @@
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
         <LangVersion>latest</LangVersion>
-        <Version>1.0.2</Version>
+        <Version>1.0.3</Version>
         <Authors>Österåkers kommun</Authors>
         <Copyright>Copyright (c) 2026 Österåkers kommun</Copyright>
         <Company>Österåkers kommun</Company>
@@ -10,7 +10,7 @@
         <PackageTags>Österåkers kommun</PackageTags>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
-        <Description>Österåkers kommun template example</Description>
+        <Description>Österåkers kommun FRENDS Task</Description>
         <PackageProjectUrl>https://osteraker.se/</PackageProjectUrl>
         <RepositoryUrl>https://osteraker.se/</RepositoryUrl>
         <Nullable>disable</Nullable>

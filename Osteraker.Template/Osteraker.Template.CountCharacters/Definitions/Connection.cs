@@ -1,4 +1,4 @@
-namespace Osteraker.Template.Example.Definitions;
+namespace Osteraker.Template.CountCharacters.Definitions;
 
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;

@@ -1,4 +1,4 @@
-﻿namespace Osteraker.Template.Example.Definitions;
+﻿namespace Osteraker.Template.CountCharacters.Definitions;
 
 /// <summary>
 /// Result of the task.

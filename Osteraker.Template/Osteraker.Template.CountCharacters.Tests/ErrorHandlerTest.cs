@@ -1,8 +1,8 @@
-﻿namespace Osteraker.Template.Example.Tests;
+﻿namespace Osteraker.Template.CountCharacters.Tests;
 
 using System;
 using System.Threading;
-using Osteraker.Template.Example.Definitions;
+using Osteraker.Template.CountCharacters.Definitions;
 using NUnit.Framework;
 
 [TestFixture]
@@ -14,7 +14,7 @@ public class ErrorHandlerTest
     public void Should_Throw_Error_When_ThrowErrorOnFailure_Is_True()
     {
         var ex = Assert.Throws<Exception>(() =>
-           Template.Example(DefaultInput(), DefaultOptions(), CancellationToken.None));
+           Template.CountCharacters(DefaultInput(), DefaultOptions(), CancellationToken.None));
         Assert.That(ex, Is.Not.Null);
     }
 
@@ -23,7 +23,7 @@ public class ErrorHandlerTest
     {
         var options = DefaultOptions();
         options.ThrowErrorOnFailure = false;
-        var result = Template.Example(DefaultInput(), options, CancellationToken.None);
+        var result = Template.CountCharacters(DefaultInput(), options, CancellationToken.None);
         Assert.That(result.Success, Is.False);
     }
 
@@ -33,7 +33,7 @@ public class ErrorHandlerTest
         var options = DefaultOptions();
         options.ErrorMessageOnFailure = CustomErrorMessage;
         var ex = Assert.Throws<Exception>(() =>
-            Template.Example(DefaultInput(), options, CancellationToken.None));
+            Template.CountCharacters(DefaultInput(), options, CancellationToken.None));
         Assert.That(ex, Is.Not.Null);
         Assert.That(ex.Message, Contains.Substring(CustomErrorMessage));
     }

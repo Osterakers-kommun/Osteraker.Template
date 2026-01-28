@@ -6,7 +6,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\Osteraker.Template.Example\Osteraker.Template.Example.csproj"/>
+        <ProjectReference Include="..\Osteraker.Template.CountCharacters\Osteraker.Template.CountCharacters.csproj"/>
     </ItemGroup>
 
     <ItemGroup>
